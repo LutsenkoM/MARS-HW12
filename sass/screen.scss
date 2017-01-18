@@ -7,6 +7,7 @@
 @import "variables";
 @import "mixins";
 
+
 @font-face {
   font-family: "Montserrat-Bold";
   src: url('../fonts/Montserrat/Montserrat-Bold.ttf') format('truetype');
@@ -34,6 +35,25 @@ a{
   height: 100vh;
   @include display-flex;
   justify-content: center;
+  .menu {
+    position:absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 30%;
+    background: rgba(255,000,000, 0.8);
+    display: none;
+    ul{
+      height: 100vh;
+    }
+    li {
+      height: 25%;
+      &:hover {
+        background: #fff;
+      }
+    }
+  }
   .container {
     position:absolute;
     z-index:5;
@@ -214,6 +234,7 @@ a{
           content: "\e008";
         }
         &:hover {
+          @include transition(0.5s);
           color: red;
         }
       }
@@ -536,3 +557,5 @@ footer {
   display: none;
   margin: 20px 0;
 }
+
+@import "responsive";
