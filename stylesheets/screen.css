@@ -272,6 +272,7 @@ a:hover {
   display: inline-block;
 }
 .left-side-top button {
+  margin-left: 20px;
   background: transparent;
   border: none;
 }
