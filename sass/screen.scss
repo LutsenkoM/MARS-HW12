@@ -494,6 +494,11 @@ a{
       border: 2px solid #fff;
     }
   }
+
+  .text-show {
+    text-align: center;
+    color: #fff;
+  }
 }
 
 footer {
@@ -526,5 +531,7 @@ footer {
 }
 
 .text-show {
+  @include font($regular, 14px, #92a1a5);
   display: none;
+  margin: 20px 0;
 }

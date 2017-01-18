@@ -708,6 +708,10 @@ a:hover {
   background-color: transparent;
   border: 2px solid #fff;
 }
+.journey .text-show {
+  text-align: center;
+  color: #fff;
+}
 
 footer {
   padding: 100px 0;
@@ -747,5 +751,9 @@ footer .phantom .copyright span {
 }
 
 .text-show {
+  font-family: Montserrat-Regular, Arial, sans-serif;
+  font-size: 14px;
+  color: #92a1a5;
   display: none;
+  margin: 20px 0;
 }
