@@ -440,10 +440,9 @@ a:hover {
   transition: 0.3s;
   align-items: center;
   width: 50%;
-  padding-left: 30px;
+  height: 100%;
   position: absolute;
-  top: 0;
-  bottom: 0;
+  padding-left: 30px;
   background: rgba(0, 0, 0, 0.5);
 }
 .fly .right-side-fly .fly-text h2 {
@@ -781,10 +780,6 @@ footer .phantom .copyright span {
   color: #92a1a5;
   display: none;
   margin: 20px 0;
-}
-
-.h-two {
-  font-size: 30px !important;
 }
 
 @media (max-width: 767px) {

@@ -12,7 +12,6 @@ $(document).ready(function () {
         articleDiv.hide();
         articleDiv.eq(dot).slideDown(600);
     });
-
     //SLIDER END
 
     //'SHOW MORE' BUTTON
@@ -29,17 +28,15 @@ $(document).ready(function () {
     });
     //'SHOW MORE' BUTTON END
 
-
     //SHOW TEXT
     $('.click').on('click', function () {
         $(this).parent().find("h2").toggleClass("h-two");
         $(this).parent().find("p").slideToggle(500);
-        // $(this).parent().find('h2').fadeOut(300).css('font-size','40px').fadeIn(300);
         // if ($('p').is(':visible')) {
-        //     $(this).parent().find('h2').css('font-size','40px');
+        //     $(this).parent().find('h2').addClass("h-two");
         // } else {
-        //     $(this).parent().find('h2').css('font-size','50px');
-
+        //     $(this).parent().find('h2').removeClass("h-two");
+        //         }
 
     });
     //SHOW TEXT END
@@ -56,12 +53,12 @@ $(document).ready(function () {
 
 });
 // READY END
-
-$('.block').hover(function() {
-    $('.text').text('show less');
-}, function() {
-    $('.text').text('show more');
-});
+//
+// $('.block').hover(function() {
+//     $('.text').text('show less');
+// }, function() {
+//     $('.text').text('show more');
+// });
 
 
 // $('.owl-carousel').owlCarousel({

@@ -326,10 +326,10 @@ a{
       @include transition(0.3s);
       align-items: center;
       width: 50%;
-      padding-left: 30px;
+      height: 100%;
       position: absolute;
-      top: 0;
-      bottom: 0;
+      padding-left: 30px;
+
       background: rgba(0, 0, 0, 0.5);
       h2 {
         @include font($bold, 48px, #fff);
