@@ -311,6 +311,7 @@ a{
       &:hover button {
         transform: rotate(0);
         right: 0;
+        margin-right: 20px;
       }
       &:hover {
         @include transition(0.5s);
