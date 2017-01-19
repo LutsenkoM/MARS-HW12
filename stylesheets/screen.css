@@ -783,6 +783,10 @@ footer .phantom .copyright span {
   margin: 20px 0;
 }
 
+.h-two {
+  font-size: 30px !important;
+}
+
 @media (max-width: 767px) {
   .red div {
     width: 250px;

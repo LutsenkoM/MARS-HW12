@@ -32,13 +32,14 @@ $(document).ready(function () {
 
     //SHOW TEXT
     $('.click').on('click', function () {
-        $(this).parent().find('p').slideToggle(500);
+        $(this).parent().find("h2").toggleClass("h-two");
+        $(this).parent().find("p").slideToggle(500);
         // $(this).parent().find('h2').fadeOut(300).css('font-size','40px').fadeIn(300);
-        if ($('p').is(':visible')) {
-            $(this).parent().find('h2').css('font-size','40px');
-        } else {
-            $(this).parent().find('h2').css('font-size','50px');
-        }
+        // if ($('p').is(':visible')) {
+        //     $(this).parent().find('h2').css('font-size','40px');
+        // } else {
+        //     $(this).parent().find('h2').css('font-size','50px');
+
 
     });
     //SHOW TEXT END
