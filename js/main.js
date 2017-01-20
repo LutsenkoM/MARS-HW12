@@ -57,11 +57,11 @@ $(document).ready(function () {
 });
 // READY END
 
-$('.block').hover(function() {
-    $('.text').text('show less');
-}, function() {
-    $('.text').text('show more');
-});
+// $('.block').hover(function() {
+//     $('.text').text('show less');
+// }, function() {
+//     $('.text').text('show more');
+// });
 
 
 // $('.owl-carousel').owlCarousel({
