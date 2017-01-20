@@ -545,14 +545,12 @@ footer {
         text-transform: uppercase;
         margin-bottom: 20px;
       }
-      span{
-        @include font($regular, 14px,#92a1a5);
+      span {
+        @include font($regular, 14px, #92a1a5);
       }
     }
   }
-
 }
-
 .text-show {
   @include font($regular, 14px, #92a1a5);
   display: none;
