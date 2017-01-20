@@ -45,10 +45,6 @@ $(document).ready(function () {
     //MENU
     $('#button-menu').on('click', function () {
         $('.menu').slideToggle(500).css('position' , 'fixed');
-        // $(this).css('position' , 'fixed');
-        // $(window).on('click'), function () {
-        //     $('.menu').hide();
-        // }
     });
     //MENU END
 
